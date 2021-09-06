@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_skills",
+  "info": {
+    "name": "skills",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "durations": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "years",
+        "months"
+      ]
+    }
+  }
+}

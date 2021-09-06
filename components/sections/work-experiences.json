@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_work_experiences",
+  "info": {
+    "name": "work_experiences",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "techniques": {
+      "type": "string"
+    },
+    "from_date": {
+      "type": "string"
+    },
+    "to_date": {
+      "type": "string"
+    }
+  }
+}

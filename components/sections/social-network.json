@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_social_networks",
+  "info": {
+    "name": "social_network",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

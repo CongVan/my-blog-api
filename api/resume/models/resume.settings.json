@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "resumes",
+  "info": {
+    "name": "Resume",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "social_networks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.social-network"
+    },
+    "about_me": {
+      "type": "richtext"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "freelance": {
+      "type": "boolean"
+    },
+    "work_experiences": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.work-experiences"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.skills"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.work-experiences"
+    }
+  }
+}

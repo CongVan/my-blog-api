@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "name": "Services",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "richtext"
+    }
+  }
+}
